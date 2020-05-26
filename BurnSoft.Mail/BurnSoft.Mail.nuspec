@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>burnsoftnet</owners>
-    <projectUrl>https://github.com/burnsoftnet/BurnSoft.Database</projectUrl>
-    <repository type="git" url="https://github.com/burnsoftnet/BurnSoft.Database" />
+    <projectUrl>https://github.com/burnsoftnet/BurnSoft.Mail</projectUrl>
+    <repository type="git" url="https://github.com/burnsoftnet/BurnSoft.Mail" />
     <iconUrl>https://avatars0.githubusercontent.com/u/24593581?s=460</iconUrl>
     <icon>images\icon.png</icon>
     <license type="expression">MIT</license>
@@ -18,7 +18,7 @@
     <tags>BurnSoft Mail SMTP</tags>
   </metadata>
   <files>
-    <file src="$id$.chm" target="content/$id$.chm" />
+    <file src="bin/$configuration$/$id$.chm" target="content/$id$.chm" />
     <file src="icon.png" target="images\" />
   </files>
 </package>

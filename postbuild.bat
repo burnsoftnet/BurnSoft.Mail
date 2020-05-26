@@ -26,11 +26,13 @@ del /Q %ProjectDir%*.nupkg
 if "%ConfigurationName%" == %DEBUG% (
 	echo "nuget Dev packing"
 	SET USENUGETSERVER="http://nuget.burnsoft.test"
+	nuget pack
 )
 
 if "%ConfigurationName%" == %RELEASE% (
 	echo "nuget Production Packing"
 	SET USENUGETSERVER="http://nuget.burnsoft.prod"
+	nuget pack -Prop Configuration=Release
 )
 
 SET nupak=""
