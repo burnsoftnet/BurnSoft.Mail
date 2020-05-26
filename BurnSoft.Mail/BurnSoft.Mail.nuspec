@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>burnsoftnet</owners>
+    <projectUrl>https://github.com/burnsoftnet/BurnSoft.Database</projectUrl>
+    <repository type="git" url="https://github.com/burnsoftnet/BurnSoft.Database" />
+    <iconUrl>https://avatars0.githubusercontent.com/u/24593581?s=460</iconUrl>
+    <icon>images\icon.png</icon>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Release of BurnSoft.Database Library</releaseNotes>
+    <copyright>Copyright 2019-2020</copyright>
+    <tags>BurnSoft Mail SMTP</tags>
+  </metadata>
+  <files>
+    <file src="$id$.chm" target="content/$id$.chm" />
+    <file src="icon.png" target="images\" />
+  </files>
+</package>
